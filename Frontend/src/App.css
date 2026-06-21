@@ -56,8 +56,50 @@ main .left .review {
 
 
 main .right {
-  background-color: #343434;
+  background-color: #1e1e1e;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   overflow: auto;
+  color: #ffffff;
+}
+main .right h1,
+main .right h2,
+main .right h3 {
+  color: #61dafb;
+  margin: 1rem 0 0.5rem 0;
+}
+
+main .right p {
+  color: #e0e0e0;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+main .right code {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Fira code', monospace;
+}
+
+main .right pre {
+  background-color: #2d2d2d;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+}
+
+main .right ul, main .right ol {
+  color: #e0e0e0;
+  padding-left: 1.5rem;
+}
+
+main .right li {
+  margin: 0.3rem 0;
+}
+
+main .right strong {
+  color: #ffffff;
 }
