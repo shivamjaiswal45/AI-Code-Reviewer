@@ -10,7 +10,7 @@ function App() {
   async function reviewCode() {
     try {
       const response = await axios.post(
-        'http://localhost:3000/ai/get-review',
+        'https://ai-code-reviewer-backend-1aod.onrender.com/ai/get-review',
         { code: code }
       )
       setReview(response.data)
@@ -58,15 +58,3 @@ function App() {
 export default App
  
 
-// import { Editor } from "react-simple-code-editor"
-
-// function App() {
-//   return (
-//     <Editor
-//       value="hello"
-//       onValueChange={()=>{}}
-//     />
-//   )
-// }
-
-// export default App
