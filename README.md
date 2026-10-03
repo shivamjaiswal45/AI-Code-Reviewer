@@ -224,3 +224,37 @@ The application analyzes the submitted code and provides feedback on issues, com
 The AI reviewer provides suggestions and recommendations to improve the submitted code.
 
 ![Review Improvements](./screenshots/review-improvements.png)
+
+## 🧠 AI Integration
+
+The application uses the Google Gemini API to analyze submitted source code and generate structured code review feedback.
+
+The backend sends the user's code to Gemini with instructions to review the code for:
+
+- Code quality
+- Readability
+- Potential issues
+- Time and space complexity
+- Improvement suggestions
+- Additional recommendations
+
+The AI-generated response is then returned by the backend and displayed in the React frontend.
+
+## 🔮 Future Improvements
+
+- Support for multiple programming languages
+- Add user authentication and personalized review history
+- Improve AI-generated review structure and consistency
+- Add code complexity visualization
+- Allow users to compare code before and after improvements
+- Add support for different AI models
+- Improve error handling and API reliability
+
+  ## 👨‍💻 Author
+
+**Shivam Jaiswal**
+
+B.Tech CSE student interested in Java, Spring Boot, MERN backend development, and full-stack development.
+
+- GitHub: [@shivamjaiswal45](https://github.com/shivamjaiswal45)
+- LinkedIn: [Shivam Jaiswal](https://www.linkedin.com/in/shivamjaiswal-/)
