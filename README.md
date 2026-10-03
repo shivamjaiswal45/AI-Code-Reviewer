@@ -9,6 +9,7 @@ An AI-powered code review application that analyzes source code using Google Gem
 ## 📌 Overview
 
 AI Code Reviewer is a full-stack web application that helps developers analyze their source code using generative AI.
+
 Users can submit their code through the web interface, and the application sends the code to the backend for AI-powered analysis. Google Gemini processes the code and generates feedback, explanations, and suggestions for improvement.
 
 ## ✨ Features
@@ -24,19 +25,23 @@ Users can submit their code through the web interface, and the application sends
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React.js
 - JavaScript
 - HTML
 - CSS
 
 ### Backend
+
 - Node.js
 - Express.js
 
 ### AI Integration
+
 - Google Gemini API
 
 ### Tools & Services
+
 - Axios
 - dotenv
 - Git
@@ -94,7 +99,6 @@ AI-Code-Reviewer/
 │   │   │
 │   │   └── app.js
 │   │
-│   ├── .env
 │   ├── package.json
 │   ├── package-lock.json
 │   └── server.js
@@ -114,13 +118,17 @@ AI-Code-Reviewer/
 │   ├── index.html
 │   ├── package.json
 │   ├── package-lock.json
-│   ├── README.md
 │   └── vite.config.js
+│
+├── screenshots/
+│   ├── code-input.png
+│   ├── code-review.png
+│   └── review-improvements.png
 │
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
-└── temp.js
+└── README.md
 ```
 
 ## 🔄 How It Works
@@ -138,6 +146,7 @@ AI-Code-Reviewer/
 ### Prerequisites
 
 Before running the project, make sure you have the following installed:
+
 - Node.js
 - npm
 - Git
@@ -169,25 +178,31 @@ npm install
 ### 4. Configure Environment Variables
 
 Create a `.env` file inside the `BackEnd` directory:
+
 ```env
 GEMINI_API_KEY=your_gemini_api_key
 ```
+
 Replace `your_gemini_api_key` with your actual Google Gemini API key.
+
 > Never commit your `.env` file or expose your API key publicly.
 
 ### 5. Run the Application
 
 Start the backend:
+
 ```bash
 cd BackEnd
 npm start
 ```
 
 Start the frontend in another terminal:
+
 ```bash
 cd Frontend
 npm run dev
 ```
+
 The frontend will be available at the local URL provided by Vite.
 
 ## 📸 Screenshots
